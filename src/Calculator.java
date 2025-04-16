@@ -338,16 +338,19 @@ public class Calculator extends javax.swing.JFrame {
     private void b7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_b7ActionPerformed
         // TODO add your handling code here:
         t1.setText(t1.getText()+"7");
+        
     }//GEN-LAST:event_b7ActionPerformed
 
     private void b9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_b9ActionPerformed
         // TODO add your handling code here:
         t1.setText(t1.getText()+"9");
+        
     }//GEN-LAST:event_b9ActionPerformed
 
     private void b8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_b8ActionPerformed
         // TODO add your handling code here:
         t1.setText(t1.getText()+"8");
+        
     }//GEN-LAST:event_b8ActionPerformed
 
     private void bdivActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bdivActionPerformed
@@ -355,6 +358,7 @@ public class Calculator extends javax.swing.JFrame {
         num1 = Double.parseDouble(t1.getText());
         t1.setText("");
         operator = "/";
+        
     }//GEN-LAST:event_bdivActionPerformed
 
     private void bmulActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bmulActionPerformed
@@ -362,21 +366,25 @@ public class Calculator extends javax.swing.JFrame {
         num1 = Double.parseDouble(t1.getText());
         t1.setText("");
         operator = "*";
+        
     }//GEN-LAST:event_bmulActionPerformed
 
     private void b4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_b4ActionPerformed
         // TODO add your handling code here:
         t1.setText(t1.getText()+"4");
+        
     }//GEN-LAST:event_b4ActionPerformed
 
     private void b6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_b6ActionPerformed
         // TODO add your handling code here:
         t1.setText(t1.getText()+"6");
+        
     }//GEN-LAST:event_b6ActionPerformed
 
     private void b5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_b5ActionPerformed
         // TODO add your handling code here:
         t1.setText(t1.getText()+"5");
+        
     }//GEN-LAST:event_b5ActionPerformed
 
     private void bsubActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bsubActionPerformed
@@ -389,16 +397,19 @@ public class Calculator extends javax.swing.JFrame {
     private void b1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_b1ActionPerformed
         // TODO add your handling code here:
         t1.setText(t1.getText()+"1");
+        
     }//GEN-LAST:event_b1ActionPerformed
 
     private void b3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_b3ActionPerformed
         // TODO add your handling code here:
         t1.setText(t1.getText()+"3");
+        
     }//GEN-LAST:event_b3ActionPerformed
 
     private void b2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_b2ActionPerformed
         // TODO add your handling code here:
         t1.setText(t1.getText()+"2");
+        
     }//GEN-LAST:event_b2ActionPerformed
 
     private void baddActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_baddActionPerformed
@@ -406,11 +417,13 @@ public class Calculator extends javax.swing.JFrame {
         num1 = Double.parseDouble(t1.getText());
         t1.setText("");
         operator = "+";
+        
     }//GEN-LAST:event_baddActionPerformed
 
     private void b0ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_b0ActionPerformed
         // TODO add your handling code here:
         t1.setText(t1.getText()+"0");
+        
     }//GEN-LAST:event_b0ActionPerformed
 
     private void bequalActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bequalActionPerformed
@@ -435,11 +448,13 @@ public class Calculator extends javax.swing.JFrame {
         
         t1.setText(""+ans);
         operator = null;
+        
     }//GEN-LAST:event_bequalActionPerformed
 
     private void bdotActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bdotActionPerformed
         // TODO add your handling code here:
         t1.setText(t1.getText()+".");
+        
     }//GEN-LAST:event_bdotActionPerformed
 
     private void jButton17ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton17ActionPerformed
@@ -462,6 +477,7 @@ public class Calculator extends javax.swing.JFrame {
         // TODO add your handling code here:
         String str = t1.getText();
         t1.setText(str.substring(0,str.length()-1));
+        
         
     }//GEN-LAST:event_bbackActionPerformed
 
