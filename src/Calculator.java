@@ -92,6 +92,11 @@ public class Calculator extends javax.swing.JFrame {
 
         t1.setFont(new java.awt.Font("Helvetica Neue", 1, 18)); // NOI18N
         t1.setHorizontalAlignment(javax.swing.JTextField.RIGHT);
+        t1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                t1ActionPerformed(evt);
+            }
+        });
 
         b7.setFont(new java.awt.Font("Helvetica Neue", 1, 14)); // NOI18N
         b7.setText("7");
@@ -264,7 +269,7 @@ public class Calculator extends javax.swing.JFrame {
                                 .addComponent(b3, javax.swing.GroupLayout.PREFERRED_SIZE, 66, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addGap(18, 18, 18)
                                 .addComponent(bsub, javax.swing.GroupLayout.PREFERRED_SIZE, 66, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                        .addGap(0, 2, Short.MAX_VALUE))
+                        .addGap(0, 0, Short.MAX_VALUE))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                         .addGap(0, 0, Short.MAX_VALUE)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -464,6 +469,10 @@ public class Calculator extends javax.swing.JFrame {
         // TODO add your handling code here:
         t1.setText("");
     }//GEN-LAST:event_bclearActionPerformed
+
+    private void t1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_t1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_t1ActionPerformed
 
     /**
      * @param args the command line arguments
